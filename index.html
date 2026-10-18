@@ -116,6 +116,13 @@ h2,h3,p{margin:0}
 .cal-grid .d.wed svg{position:absolute;width:36px;height:34px;color:var(--red);z-index:0}
 .cal-grid .d.wed span{position:relative;z-index:1;margin-top:-2px}
 
+.photo-sec{padding-top:4px}
+.photo{width:100%;max-width:340px;padding:8px;border:1px solid var(--gold);border-radius:999px 999px 4px 4px;background:var(--paper);
+  box-shadow:0 0 0 5px var(--paper),0 0 0 6px var(--gold-2),0 24px 40px -18px rgba(90,14,18,.55)}
+.photo img{display:block;width:100%;height:auto;aspect-ratio:900/1232;object-fit:cover;border-radius:999px 999px 2px 2px}
+.photo-cap{font-family:var(--f-display);font-style:italic;font-size:18px;color:var(--ink-soft)}
+.photo.rv.pre{transform:translateY(30px) scale(.94)}
+
 /* VENUE */
 .venue-name{font-family:var(--f-display);font-weight:700;font-size:30px;line-height:1.2;color:var(--ink)}
 .venue-addr{font-size:15px;color:var(--ink-soft)}
@@ -289,6 +296,13 @@ h2,h3,p{margin:0}
         <span class="full">Phạm Thị Nghĩa</span>
       </div>
     </div>
+  </section>
+
+  <section class="photo-sec">
+    <figure class="photo rv" style="margin:0">
+      <img src="photo.jpg" width="900" height="1232" alt="Ảnh cưới của Vũ Hoàng Dương và Phạm Thị Nghĩa" decoding="async">
+    </figure>
+    <p class="photo-cap rv">Từ hôm nay, chung một mái nhà</p>
   </section>
 
   <section class="date">
